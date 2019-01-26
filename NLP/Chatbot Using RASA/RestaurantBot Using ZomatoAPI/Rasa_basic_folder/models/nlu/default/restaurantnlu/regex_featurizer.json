@@ -1,0 +1,30 @@
+[
+    {
+        "name": "cuisine",
+        "pattern": "prefer"
+    },
+    {
+        "name": "email",
+        "pattern": "\\S+@\\S+"
+    },
+    {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+    },
+    {
+        "name": "greet",
+        "pattern": "hi[^\\s]*"
+    },
+    {
+        "name": "greet",
+        "pattern": "hola[^\\s]*"
+    },
+    {
+        "name": "pricerange",
+        "pattern": "^[><]\\d+$"
+    },
+    {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+    }
+]
