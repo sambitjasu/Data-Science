@@ -53,4 +53,4 @@ _The below mentioned experiments have been tried out throughout the case study_
 |**Final Model**|Model 2 - variation 4|0.74|Choose this is the final model as it gives the highest validation accuracy. 
 ||||
 
-_[Final Download Model Link](https://drive.google.com/file/d/1qLZ182xZHgtAwdVAuRyTiITvHVmpGuL_/view?usp=sharing)_
+_[Final Model Download Link](https://drive.google.com/file/d/1qLZ182xZHgtAwdVAuRyTiITvHVmpGuL_/view?usp=sharing)_
