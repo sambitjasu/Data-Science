@@ -32,7 +32,7 @@ The conv2D network will extract a feature vector for each image, and a sequence 
 - 3D Convolutional Network, or Conv3D
 3D convolutions are a natural extension to the 2D convolutions. Just like in 2D conv, we move the filter in two directions (x and y), in 3D conv, we move the filter in three directions (x, y and z). In this case, the input to a 3D conv is a video (which is a sequence of 30 RGB images). If we assume that the shape of each image is 100x100x3, for example, the video becomes a 4-D tensor of shape 100x100x3x30 which can be written as (100x100x30)x3 where 3 is the number of channels.
 
-_The below mentioned experiments have been tried out throughout the case study
+_The below mentioned experiments have been tried out throughout the case study_
 
 |Experiment Number|Model|Result/ Accuracy|Decision + Explanation
 |:---|:---|:---|:---|
@@ -47,3 +47,10 @@ _The below mentioned experiments have been tried out throughout the case study
 |Model 4 - variation 3|TimeDistributed Conv2D and MaxPooling2D followed by LSTM and Dense. With only edge transformation|0.25|This is same as above but with only edge transformation.|
 |Model 1 - variation 2|Using Conv3D and MaxPooling3D. Doing both affine and edge transformation|0.52|Using Conv3D and MaxPooling3D. Doing both affine and edge transformation|
 |Model 1 - variation 3|Using Conv3D and MaxPooling3D. Doing only edge transformation|0.50|Using Conv3D and MaxPooling3D. Doing only edge transformation|
+||||
+||||
+||||
+|**Final Model**|Model 2 - variation 4|0.74|Choose this is the final model as it gives the highest validation accuracy. 
+||||
+
+_[Final Download Model Link](https://drive.google.com/file/d/1qLZ182xZHgtAwdVAuRyTiITvHVmpGuL_/view?usp=sharing)_
